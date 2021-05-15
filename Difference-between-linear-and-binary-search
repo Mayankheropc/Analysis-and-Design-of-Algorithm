@@ -1,0 +1,14 @@
+Linear search and Binary search and analyze its time complexity
+
+In linear search algorithm, we compare targeted element with each element of the array.
+If the element is found then its position is displayed.
+The worst case time complexity for linear search is O(n).
+
+
+
+Binary Search: Search a sorted array by repeatedly dividing the search interval in half. Begin with an 
+interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, 
+narrow the interval to the lower half. Otherwise, narrow it to the upper half. Repeatedly check until
+the value is found or the interval is empty.
+  
+The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n).
