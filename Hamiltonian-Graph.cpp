@@ -72,6 +72,8 @@ bool hamiltonianCycle()
    return true;
 }
 
-int main() {
+int main() 
+{
    hamiltonianCycle();
+return 0;
 }
